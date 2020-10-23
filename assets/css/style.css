@@ -1,0 +1,148 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+    background-attachment: fixed;
+    font-size: 1.2rem;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.htmlImg {
+    color: #E96228;
+    padding-left: 0.3em;
+}
+#htmlColor {
+    background-color: #E96228;
+}
+.cssImg {
+    color: #2961eb;
+    padding-left: 0.3em;
+}
+#cssColor {
+    background-color: #2961eb;
+}
+.githubImg {
+    color: black;
+}
+.twitchImg {
+    color: #9147FF;
+}
+.linkedinImg {
+    color: #0073B1;
+}
+.textRight {
+    color: black;
+}
+.progress {
+    margin-bottom: 20px;
+}
+.borderMiddle {
+    border-left: 0.3em solid #16F4D0;
+    border-right: 0.3em solid #FFC123;
+}
+.borderLeft {
+    border-right: 0.3em solid #FFC123;   
+}
+.borderRight {
+    border-left: 0.3em solid #16F4D0;
+}
+.imgAwesome {
+    font-size: 1.3em;
+}
+@media (min-width: 2000px) {
+    body {
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    img {
+        width: 80%;
+        height: 80%;
+    }
+    .imgAwesome {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 1.6rem;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    .textRight {
+        color: white;
+    }
+    img {
+        width: 15%;
+        height: 15%;
+    }
+    .imgAwesome {
+        font-size: 1.3em;
+    }
+    .borderOrange {
+        border-bottom: 0.3em solid #FFC123;
+    }
+    .borderBlue {
+        border-bottom: 0.3em solid #16F4D0;
+    }
+    .borderMiddle {
+        border-left: none;
+        border-right: none;
+    }
+    .borderLeft {
+        border-right: none;   
+    }
+    .borderRight {
+        border-left: none;
+    }
+}
+@media (max-width: 576px) {
+    body {
+        font-size: 1.2em;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .textRight {
+        color: white;
+    }
+    img {
+        width: 35%;
+        height: 35%;
+    }
+    .borderOrange {
+        border-bottom: 0.3em solid #FFC123;
+    }
+    .borderBlue {
+        border-bottom: 0.3em solid #16F4D0;
+    }
+    .borderMiddle {
+        border-left: none;
+        border-right: none;
+    }
+    .borderLeft {
+        border-right: none;   
+    }
+    .borderRight {
+        border-left: none;
+    }
+    .imgAwesome {
+        font-size: 1.2em;
+    }
+}
