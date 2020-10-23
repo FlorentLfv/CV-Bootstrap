@@ -54,6 +54,11 @@ h2 {
 .imgAwesome {
     font-size: 1.3em;
 }
+ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
 @media (min-width: 2000px) {
     body {
         font-size: 2rem;
